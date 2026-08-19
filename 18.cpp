@@ -25,7 +25,7 @@ int main(){
     // cout<<"the enter the value of a and b "<<coin(a,b)<<endl;
     // cout<<"the enter the value of a and b "<<coin(a,b)<<endl;
     int money = 100000;
-    cout<<"if you have "<<money<<"rs in bank account you will recive "<<moneybank(money)<<"in 1 year";
+    cout<<"if you have "<<money<<"rs in bank account you will recive "<<moneybank(money)<<"in 1 year"<<endl;
  
 
   

@@ -14,39 +14,39 @@ int main(){
     switch (op)
     {
     case '+':
-        cout<<number1+number2;
+        cout<<number1+number2<<endl;
         break;
 
     case '-':
-        cout<<number1-number2;
+        cout<<number1-number2<<endl;
         break;
     
     case '*':
-        cout<<number1*number2;
+        cout<<number1*number2<<endl;
         break;
     
     case '/':
         if (number2 !=0)
         {
-            cout<< number1 / number2;
+            cout<< number1 / number2<<endl;
         }else
         {
-            cout<<"error divison by zero!";
+            cout<<"error divison by zero!"<<endl;
         }
          
         break;
     case '%':
        if (number2 !=0)
         {
-            cout<< number1 % number2;
+            cout<< number1 % number2<<endl;
         }else
         {
-            cout<<"error percentile by zero!";
+            cout<<"error percentile by zero!"<<endl;
         }
         break;
     
     default:
-     cout<<"invalid operator";
+    cout<<"invalid operator"<<endl;
      break;
     }
 

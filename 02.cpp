@@ -3,7 +3,7 @@ using namespace std;
 int glo = 63;
 void sum(){
     int a; 
-    cout<<glo;
+    cout<<glo<<endl;
  }
 
 int main(){
@@ -16,9 +16,9 @@ int main(){
     bool is_true = false;
 
     cout<<"hope it works. \n this is value of a "<<a << " this the value of b \n" <<b << " this the value of c\n "<<c ;
-    cout<<" this the value of d "<<d;
-    cout<<" this the value of t "<<t;
-    cout<<" this the value of is it true "<<is_true;
+    cout<<" this the value of d "<<d<<endl;
+    cout<<" this the value of t "<<t<<endl;
+    cout<<" this the value of is it true "<<is_true<<endl;
     return 0;
 
 

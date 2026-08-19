@@ -43,10 +43,10 @@ void item::reduceStock(){
     if (stock >0) 
     {
         stock--;
-        cout<<" Available STOCK for this item";
+        cout<<" Available STOCK for this item"<<endl;
         
     }else{
-        cout<<"no stock for this item";
+        cout<<"no stock for this item"<<endl;
     }
     
 }
@@ -78,14 +78,14 @@ stocks.push_back( item ("KitKat", 30, 6));
 
 for (int i = 0; i < stocks.size(); i++)
 {
-    cout << i + 1 << ". "; stocks[i].displayitem();
+    cout << i + 1 << ". " << endl; stocks[i].displayitem();
 }
-cout<<"select item ";
+cout<<"select item "<<endl;
 cin>>uesr_input;
 int index = uesr_input - 1;
 if (index >= 0 &&index <stocks.size()&&stocks[index].getStock()>0)
 {
-    cout<<"put money ";
+    cout<<"put money "<<endl;
     cin>>money;
     if (money >= stocks[index].getinprice())
     {
@@ -101,7 +101,7 @@ if (index >= 0 &&index <stocks.size()&&stocks[index].getStock()>0)
 
     do
     {
-        cout<<"Do you want to buy something else? (y/n): ";
+        cout<<"Do you want to buy something else? (y/n): "<<endl;
     } while (uesr_input == 'y' || uesr_input == 'Y');
     cin>>uesr_input;
     return 0;

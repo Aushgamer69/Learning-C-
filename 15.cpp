@@ -9,7 +9,7 @@ int main(){
     cin>>num1;
     cout<<"enter the vlaue of num2 "<<endl;
     cin>>num2;
-    cout<<"the sum of value for numaber 1 and to is"<<sum(num1, num2);
+    cout<<"the sum of value for numaber 1 and to is"<<sum(num1, num2)<<endl;
     return 0;
 
 

@@ -8,7 +8,7 @@ int main(){
     int sum = 65;
 
 
-    std::cout<<"let hope it works"<<sum;
+    std::cout<<"let hope it works"<<sum<<endl;
     return 0;
 }  
 

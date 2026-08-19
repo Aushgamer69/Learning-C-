@@ -49,7 +49,7 @@ void binary::display(void)
     cout << "display your binary number" << endl;
     for (int i = 0; i < s.length(); i++)
     {
-        cout << s.at(i);
+        cout << s.at(i) << endl;
     }
     cout << endl;
 }

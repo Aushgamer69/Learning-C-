@@ -14,7 +14,7 @@ int main(){
     // cout<<"this the value of a was : "<<a<<endl;
     int a = 34, b= 65;
     int c = ((((a*6)+7)-12)+76);
-    cout<<c;
+    cout<<c<<endl;
 
 
     return  0;
