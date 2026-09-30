@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    string st = "An old iron railway track runs quietly through a dense, emerald forest. "
+                "Tall pine trees line both sides of the path, arching overhead to form a natural green canopy. "
+                "Sunlight filters through the thick branches, casting soft patches of light across the rust-colored rails. "
+                "A gentle morning mist hangs in the cool air, bringing a feeling of quiet calm to the solitary woods.";
+    ofstream out("57 sample");
+    out << st;
+    string st2;
+
+    ifstream in("57sampleb.txt");
+    // in>>st2;
+    getline(in, st2);
+    cout << st2;
+    return 0;
+}
